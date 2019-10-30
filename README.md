@@ -11,5 +11,17 @@ repositories{
 - app/build.gradle
 implementation 'jp.co.yiwaisako:android_placeholder:0.0.1'
 
+```
+Placeholder.with(
+    this,
+    R.drawable.log,
+    R.color.bg_color
+)
+
+val wPixel = 100
+val hPixel = 100
+val placeholder = Placeholder.createPlaceHolderFromPixel(this, wPixel, hPixel)
+```
+
 ## 参考
 https://qiita.com/wa2c/items/8bb67e11cd7ee9146c2e
