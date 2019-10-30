@@ -1,0 +1,15 @@
+def versionName = "0.0.1"
+def repo = new File(rootDir, "maven-repository")
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository url: "file://${repo.absolutePath}"
+            pom.version = "${versionName}"
+            pom.groupId = 'jp.co.yiwaisako'
+            pom.artifactId = 'android_placeholder'
+        }
+    }
+}
