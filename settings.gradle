@@ -1,0 +1,2 @@
+include ':app', ':android_placeholder'
+rootProject.name='android-placeholder-library'
