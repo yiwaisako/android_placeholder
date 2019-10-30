@@ -4,16 +4,17 @@
 ## use
 
 - build.gradle
-repositories{
-  maven { url 'https://github.com/yiwaisako/android_placeholder/raw/master/maven-repository/' }
-}
+
+  - repositories{
+    maven { url 'https://github.com/yiwaisako/android_placeholder/raw/master/maven-repository/' }
+  }
 
 - app/build.gradle
-implementation 'jp.co.yiwaisako:android_placeholder:0.0.1'
 
+  - implementation 'jp.co.yiwaisako:android_placeholder:0.0.1'
+
+- Activityで利用する例
 ```
-Hoge.Activity
-
 Placeholder.with(
     this,
     R.drawable.logo,
