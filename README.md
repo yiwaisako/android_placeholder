@@ -12,9 +12,11 @@ repositories{
 implementation 'jp.co.yiwaisako:android_placeholder:0.0.1'
 
 ```
+Hoge.Activity
+
 Placeholder.with(
     this,
-    R.drawable.log,
+    R.drawable.logo,
     R.color.bg_color
 )
 
