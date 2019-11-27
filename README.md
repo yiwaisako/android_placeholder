@@ -1,4 +1,4 @@
-# android_placeholder
+# android_placeholder（作成中）
 - Mavenリポジトリお試し
 
 ## use
